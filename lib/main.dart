@@ -1,4 +1,5 @@
 import 'package:app_trip/screens/Home.dart';
+import 'package:app_trip/screens/sandBox.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Trip App',
-      home: Home(),
+      home: Sandbox(),
     );
   }
 }
