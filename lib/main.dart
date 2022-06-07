@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Trip App',
-      home: Sandbox(),
+      home: Home(),
     );
   }
 }
