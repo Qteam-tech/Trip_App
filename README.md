@@ -1,6 +1,9 @@
 # app_trip
 
 A new Flutter project.
+This is just simple app for training that given from The Net Ninja publisher. and I modified the source code with the new version of the flutter. 
+and work on it for training.
+Best Regards
 
 ## Getting Started
 
