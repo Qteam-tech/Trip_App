@@ -1,5 +1,4 @@
 import 'package:app_trip/screens/Home.dart';
-import 'package:app_trip/screens/sandBox.dart';
 import 'package:flutter/material.dart';
 
 void main() {
