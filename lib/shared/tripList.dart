@@ -10,13 +10,12 @@ class TripList extends StatefulWidget {
 }
 
 class _TripListState extends State<TripList> {
-  List<Widget> _tripTiles = [];
+  final List<Widget> _tripTiles = [];
   // final GlobalKey _listKey = GlobalKey();
   final GlobalKey<AnimatedListState> _listKey = GlobalKey<AnimatedListState>();
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       _addTrips();
@@ -78,7 +77,8 @@ class _TripListState extends State<TripList> {
     );
   }
 
-  Tween<Offset> _offset = Tween(begin: Offset(1, 0), end: Offset(0, 0));
+  final Tween<Offset> _offset =
+      Tween(begin: const Offset(1, 0), end: const Offset(0, 0));
   Widget build(BuildContext context) {
     return AnimatedList(
       key: _listKey,
